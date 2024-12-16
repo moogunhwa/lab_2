@@ -3,48 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Лабораторна робота 2</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Проєкт</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <h1>Лабораторна робота 2</h1>
-            <nav>
-                <ul class="nav">
-                    <li><a href="#">Головна</a></li>
-                    <li><a href="#">Про нас</a></li>
-                    <li><a href="#">Контакти</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header>
+        <h1>Ласкаво просимо!</h1>
+        <nav>
+            <ul>
+                <li><a href="#projects">Наші проєкти</a></li>
+                <li><a href="#team">Наша команда</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main class="main-content">
-        <section class="hero">
-            <h2>Вітаємо на сторінці!</h2>
-            <p>Це приклад оформлення веб-сторінки за допомогою CSS.</p>
+    <main>
+        <section id="projects">
+            <h2>Наші проєкти</h2>
+            <div class="projects-gallery">
+                <img src="project1.jpg" alt="Проєкт 1">
+                <img src="project2.jpg" alt="Проєкт 2">
+                <img src="project3.jpg" alt="Проєкт 3">
+            </div>
         </section>
 
-        <section class="features">
-            <h3>Переваги</h3>
-            <ul class="features-list">
-                <li>Адаптивний дизайн</li>
-                <li>Сучасні технології</li>
-                <li>Легкість у використанні</li>
-            </ul>
+        <section id="team">
+            <h2>Наша команда</h2>
+            <div class="team-gallery">
+                <img src="team1.jpg" alt="Член команди 1">
+                <img src="team2.jpg" alt="Член команди 2">
+                <img src="team3.jpg" alt="Член команди 3">
+                <img src="team4.jpg" alt="Член команди 4">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Контакти</h2>
+            <p>Зв'яжіться з нами за адресою: example@example.com</p>
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="container">
-            <p>Автор: Студент. Контакти: student@example.com</p>
-            <ul class="social-icons">
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Instagram</a></li>
-            </ul>
-        </div>
+    <footer>
+        <p>&copy; 2024 Всі права захищені.</p>
     </footer>
 </body>
 </html>
