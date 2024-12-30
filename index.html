@@ -5,6 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Проєкт</title>
     <link rel="stylesheet" href="css/styles.css">
+<style>
+/* Общий стиль для страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Заголовок */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Основной контент */
+main {
+    padding: 20px;
+}
+
+/* Секции */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Галереи */
+.projects-gallery,
+.team-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.projects-gallery img,
+.team-gallery img {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.projects-gallery img:hover,
+.team-gallery img:hover {
+    transform: scale(1.05);
+    border-color: #4CAF50;
+}
+
+/* Контакты */
+#contact p {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Подвал */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+</style>
 </head>
 <body>
     <header>
